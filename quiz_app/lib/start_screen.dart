@@ -5,8 +5,6 @@ class StartScreen extends StatelessWidget {
    
    final void Function() startQuiz;
   
-
-
   @override
   Widget build (context) {
     return Center(
@@ -24,8 +22,8 @@ class StartScreen extends StatelessWidget {
               const Text(
                 'Learn Flutter the fun way!',
                 style: TextStyle(
-                  fontSize: 20,
-                  color: Colors.white,
+                  fontSize: 24,
+                  color: Color.fromARGB(255, 255, 255, 255),
                   fontWeight: FontWeight.bold,
                 ),
               ),
